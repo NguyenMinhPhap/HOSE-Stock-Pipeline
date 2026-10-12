@@ -2,9 +2,9 @@ name: HOSE Stock Scanner Cloud
 
 on:
   schedule:
-    # 14:30 UTC = 21:30 Giờ Việt Nam hàng ngày
-    - cron: '30 14 * * *'
-  workflow_dispatch: # Cho phép bấm nút chạy thử thủ công ngay lập tức bất cứ lúc nào
+    # 07:45 UTC = 14:45 Chiều Giờ Việt Nam hàng ngày
+    - cron: '45 07 * * *'
+  workflow_dispatch:o
 
 jobs:
   run-scanner:
