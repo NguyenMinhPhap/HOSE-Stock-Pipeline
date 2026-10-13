@@ -27,5 +27,4 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-        run: python main_email.pyIL }}
-      run: python main_email.py
+        run: python main_email.py
